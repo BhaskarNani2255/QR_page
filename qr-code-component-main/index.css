@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container
+{
+    width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius:15px;
+}
+
+.qr_code img
+{
+ width: 100%;
+ border-radius:10px;
+}
+
+.heading
+{
+    text-align: center;
+    padding: 13px 10px ;  
+    font-family: system-ui;
+}
+
+.matter
+{
+    padding: 5px  20px 15px 20px;
+    text-align: center;
+}
